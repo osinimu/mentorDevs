@@ -541,6 +541,21 @@ button {
     position: relative;
 }
 
+@media only screen and (min-width: 768px) {
+    .single-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .single-project-card {
+        margin-left: 0;
+        width: 70%;
+    }
+}
+
 .project-description {
     padding: 40px;
     position: absolute;
